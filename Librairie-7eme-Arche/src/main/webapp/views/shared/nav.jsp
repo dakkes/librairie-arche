@@ -12,7 +12,7 @@
 		<li class="nav-item dropdown"><a class="nav-link dropdown-toggle"
 			href="#" id="navbardrop" data-toggle="dropdown"> ARTICLES </a>
 			<div class="dropdown-menu">
-				<a class="dropdown-item" href="listeArticles">Liste</a> <a
+				<a class="dropdown-item" href="ListeArticles">Liste</a> <a
 					class="dropdown-item" href="showCreate">Responsable</a>
 			</div></li>
 	</ul>

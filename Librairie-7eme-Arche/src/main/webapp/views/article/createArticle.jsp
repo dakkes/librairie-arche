@@ -29,7 +29,7 @@
 			</div>
 		</form>
 	</div>
-	${msg} <br /> <br /><a href="ListeArticles">Liste Articles</a>
+	${msg} <br /> <br /><a href="ListeArticles" style="background-color:#A9A9A9;color:#FF4500">Liste Articles</a>
 </div>
 
 
