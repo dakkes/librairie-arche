@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.lib.arche"},{"l":"com.lib.arche.controller"},{"l":"com.lib.arche.exeption"},{"l":"com.lib.arche.model"},{"l":"com.lib.arche.repository"},{"l":"com.lib.arche.service"}]

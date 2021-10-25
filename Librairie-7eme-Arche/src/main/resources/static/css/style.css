@@ -1,0 +1,185 @@
+ @charset "UTF-8";
+
+/*HEADER*/
+.one {
+	color: red;
+}
+
+.titre {
+	font-family: 'Crete Round', arial;
+	font-size: 65px;
+	text-shadow: 4px 4px 4px #aaa;
+	 
+	color: #444;
+	text-align: center;
+}
+
+.sousTitre {
+	font-family: 'Crete Round', arial;
+	text-shadow: 5px 5px 5px #4682B4	;
+	text-align: center;
+}
+
+.orange {
+	color: #ff7a00;
+}
+
+/*BODY*/
+.imageBody {
+	text-align: center;
+	display: inline-block;
+	border: 5mm ridge rgba(170, 50, 220, .6);
+	padding-right:5px; 
+	margin-left: 70px;
+	 
+}
+
+img{width: 320px;
+	height: 400px;
+}
+/*Body panier*/
+
+/*Section image home*/
+#main-image{
+	
+	 height: 580px;
+	width:2350px;
+	 padding-right:10px;
+	  
+	 
+	background:
+		url('https://media.lesechos.com/api/v1/images/view/5fb3bb513e454643fc40e498/1280x720/0604279945108-web-tete.jpg');
+	 
+}
+
+h5 {
+	font-family: 'crete Round', serif;
+	 
+	text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    width: 600px;
+    border-bottom: 1px solid #02b8dd;
+    padding: 20px;
+	border-bottom-width: thin;
+}
+
+#steps  ul li {
+	font-family: 'crete Round', serif;
+	text-align: center;
+	list-style-type: none;
+}
+
+#steps-1 p {
+	font-style: oblique 15deg;
+}
+
+#steps-2 p {
+	font-style: oblique 15deg;
+}
+li{display:inline-block;min-width:50px;}
+li a {
+    text-decoration:none;
+    line-height: 70px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 1.3em;
+    color: #444444;
+    text-transform: uppercase;
+}
+li a:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+li a:hover:after {
+  width: 90%;
+  background: #444;
+}
+	
+
+ /*section sigle article*/
+.singleArticle{
+	
+	display: inline-block;
+	 
+    text-align: center;
+    
+	 padding-left:650px;
+}
+.decription{
+	 font-size: 1.2em;
+}
+ 
+/*section show create*/
+ .titreCreation{
+ text-align:center;
+ }
+/*navbarr*/
+.i.fas fa-shopping-cart{
+	 
+	color:#00ff00;
+}
+
+.nav-link{
+	color:orange;
+}
+.button-add{
+	color:black;
+	background-color:#8E04DD;
+}
+
+/*Body de la page de connexion*/
+
+.connexion{
+	text-align:center;
+	 
+	
+}
+/*body showPersonne*/
+.showPersonne{
+	text-align:center;
+}
+/*Formulaire ajout personne*/
+.formulaireInscription{
+	text-align:center;
+	text-shadow: 5px 5px 5px #4682B4;
+}
+/*register succes */
+ 
+.register-titre{
+	color:red;
+}
+/*FOOTER*/
+.footer {
+	height: 250px;
+	background-color: rgb(0, 0, 0);
+}
+
+.footer h3 {
+	font-family: 'Crete Round', arial;
+	color: #fff;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 40px;
+}
+.icon{
+	color:blue;
+	  padding-left:1850px;
+	  text-align:center;
+	   
+}
+
+ 
+.copyright{
+	font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+     padding-left: 10px;
+    
+    color: #777;
+}
