@@ -17,9 +17,10 @@
 	<ul class="decription" style="text-indent: 20px">
 		<li>Prix : ${article.prixUnitaire}<span style="padding-left:10px;">euros</span></li> 
 		<li>Stock : ${article.stock}</li> 
+		<li>Genre : ${article.genre}</li>
 		<li>Auteur : ${article.auteur}</li>
 		<li>Format : ${article.format}</li>
-		<li>Genre : ${article.genre}</li>
+		
 		
 		
 	</ul>
