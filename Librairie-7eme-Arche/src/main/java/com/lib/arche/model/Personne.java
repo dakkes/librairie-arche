@@ -32,6 +32,10 @@
  	@GeneratedValue(strategy = GenerationType.IDENTITY)
  	Long num;
  	@NonNull
+ 	String nom;
+ 	@NonNull
+ 	String prenom;
+ 	@NonNull
  	@Pattern(regexp = "^[A-Z][a-z]{1,19}$", message = "L'email doit être dans les normes")
  	String email;
  	@NonNull

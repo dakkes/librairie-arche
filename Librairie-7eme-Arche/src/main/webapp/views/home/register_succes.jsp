@@ -10,7 +10,8 @@
 <div class="card-body">
 <table class="table table-striped">
 <tr>
-<th>Nom :</th><th>Prénom :</th><th>E-Mail :</th><th>Adresse</th><th>Code Postale :</th><th>Password :</th><th>Date de naissance :</th> 
+<th>Nom :</th><th>Prénom :</th><th>E-Mail :</th><th>Adresse</th><th>Code Postale :</th><th>Ville :</th><th>Password :</th>
+<!--<th>Date de naissance :</th>--> 
 </tr>
 
 <tr>
@@ -19,8 +20,9 @@
 <td>${user.email}</td> 
 <td>${user.adresse}</td>
 <td>${user.codePostale}</td>
+<td>${user.ville}</td>
 <td>${user.password}</td>
-<td>${user.birthday}</td>
+<!--<td>${user.birthday}</td>-->
 
 </table>
 </div>

@@ -13,8 +13,8 @@
 						name="email" class="form-control" />
 				</div>
 				<div class="form-group">
-					<label class="control-label">Mot de passe :</label> <input type="text"
-						name="motDePasse" class="form-control" />
+					<label class="control-label">Mot de passe :</label> <input type="password"
+						name="password" class="form-control" />
 				</div>
 
 				<div>

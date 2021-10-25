@@ -32,11 +32,16 @@
 				<label class="control-label">Code Postale :</label> <input type="text"
 					name="codePostale" class="form-control" />
 			</div>
+			 	<div class="form-group">
+				<label class="control-label">Ville :</label> <input type="text"
+					name="ville" class="form-control" />
+			</div>
+			<!--  
 			<div class="form-group">
 				<label class="control-label">Date de naissance (yyyy-mm-dd)
 					:</label> <input type="text" name="birthday" class="form-control" />
 			</div>
-			
+			-->
 			 
 
 

@@ -2,26 +2,51 @@ package com.lib.arche.model;
 
 import java.sql.Date;
 
-public class User {
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 
+
+@Entity
+public class User {
+	@javax.persistence.Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long Id;
 	private String name;
 	private String firstName;
 	private String email;
 	private String password;
 	private String Adresse;
 	private int CodePostale;
+	private String Ville;
 	private Date birthday;
 	
 	
+	public User() {
+		super();
+	}
 	public User(String name, String firstName, String email, String password, String adresse, int codePostale,
+			String Ville) {
+		super();
+		this.name = name;
+		this.firstName = firstName;
+		this.email = email;
+		this.password = password;
+		this.Adresse = adresse;
+		this.CodePostale = codePostale;
+		this.Ville=Ville;
+	}
+	public User(String name, String firstName, String email, String password, String adresse, int codePostale,
+			String Ville,
 			Date birthday) {
 		super();
 		this.name = name;
 		this.firstName = firstName;
 		this.email = email;
 		this.password = password;
-		Adresse = adresse;
-		CodePostale = codePostale;
+		this.Adresse = adresse;
+		this.CodePostale = codePostale;
+		this.Ville=Ville;
 		this.birthday = birthday;
 	}
 	public String getName() {
@@ -66,11 +91,18 @@ public class User {
 	public void setBirthday(Date birthday) {
 		this.birthday = birthday;
 	}
+	public String getVille() {
+		return Ville;
+	}
+	public void setVille(String ville) {
+		this.Ville = ville;
+	}
 	@Override
 	public String toString() {
 		return "User [name=" + name + ", firstName=" + firstName + ", email=" + email + ", password=" + password
-				+ ", Adresse=" + Adresse + ", CodePostale=" + CodePostale + ", birthday=" + birthday + "]";
+				+ ", Adresse=" + Adresse + ", CodePostale=" + CodePostale + ", ville=" + Ville + "]";
 	}
+	
 	
 	
 	

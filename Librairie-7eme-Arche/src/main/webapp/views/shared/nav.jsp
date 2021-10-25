@@ -23,7 +23,7 @@
 		</a>
 
 			<div class="dropdown-menu">
-				<a href="/connexion" class="dropdown-item">login</a> <a
+				<a href="connexion" class="dropdown-item">login</a> <a
 					class="dropdown-item">logout</a> <a class="dropdown-item" href="#">Profile</a>
 			</div></li>
 	</ul>
