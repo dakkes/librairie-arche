@@ -72,7 +72,7 @@ public class Librairie7emeArcheApplication implements ApplicationRunner {
 
 		articleRepository.saveAll(Arrays.asList(livre1, livre2, livre3, livre4, livre5, livre6, livre7, livre8, livre9,
 				livre10, livre11, livre12, livre13, livre14, livre15, livre16));
-		User user = new User("wick", "john", "w@j.fr", "wick", "paradis", 13006, "Marseille");
+		User user = new User("dakkes", "abdalohabe", "rilk.dakks@yahoo.fr", "wick", "2 bis allée des chênes", 78320, "La verrière");
 		userRepository.save(user);
 	}
 

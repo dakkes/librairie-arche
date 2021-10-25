@@ -22,13 +22,17 @@
 <td>${user.codePostale}</td>
 <td>${user.ville}</td>
 <td>${user.password}</td>
+
 <!--<td>${user.birthday}</td>-->
 
 </table>
+<button type="button" class="btn btn-secondary"><a href="connexion">CONNEXION</a></button>
 </div>
+
 </div>
+
 </div>
-  
+   
  
  <%@ include file="../shared/footer.jsp"%>
 

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.context.request.WebRequest;
 
-import com.lib.arche.model.Personne;
+ 
 import com.lib.arche.model.User;
 import com.lib.arche.repository.UserRepository;
 

@@ -21,7 +21,7 @@
 					name="email" class="form-control" />
 			</div>
 			<div class="form-group"id="password">
-				<label class="control-label">Password :</label> <input type="text"
+				<label class="control-label">Password :</label> <input type="password"
 					name="password" class="form-control" />
 			</div>
 			<div class="form-group">

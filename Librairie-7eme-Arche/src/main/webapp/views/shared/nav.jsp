@@ -24,7 +24,7 @@
 
 			<div class="dropdown-menu">
 				<a href="connexion" class="dropdown-item">login</a> <a
-					class="dropdown-item">logout</a> <a class="dropdown-item" href="#">Profile</a>
+					class="dropdown-item">logout</a> <a class="dropdown-item" href="arche">Profile</a>
 			</div></li>
 	</ul>
 

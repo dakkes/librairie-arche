@@ -1,6 +1,6 @@
 
 <%@ include file="../shared/header.jsp"%>
-<title>Panier</title>
+<title>Connexion</title>
 </head>
 <body>
 	<%@ include file="../shared/nav.jsp"%>
