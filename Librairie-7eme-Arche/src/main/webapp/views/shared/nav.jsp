@@ -12,8 +12,8 @@
 		<li class="nav-item dropdown"><a class="nav-link dropdown-toggle"
 			href="#" id="navbardrop" data-toggle="dropdown"> ARTICLES </a>
 			<div class="dropdown-menu">
-				<a class="dropdown-item" href="arche/listeArticles">Liste</a> <a
-					class="dropdown-item" href="/showCreate">Responsable</a>
+				<a class="dropdown-item" href="listeArticles">Liste</a> <a
+					class="dropdown-item" href="showCreate">Responsable</a>
 			</div></li>
 	</ul>
 

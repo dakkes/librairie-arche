@@ -32,8 +32,8 @@ public class Librairie7emeArcheApplication implements ApplicationRunner {
 				"https://images-na.ssl-images-amazon.com/images/I/41nyvqBQl6L._SX353_BO1,204,203,200_.jpg", 15, 10,
 				"MATRIX", "papier", "Science-Fiction", "Joshua Clover", "156824597523");
 		Livre livre2 = new Livre(
-				"https://images-na.ssl-images-amazon.com/images/I/41RmQBEiYjL._SX311_BO1,204,203,200_.jpg", 22, 12,
-				"ARTEMEDIA", "Papier", "histoire", "Dominique Besnehard", "365824598564");
+				"https://m.media-amazon.com/images/I/41RU2yLxvYL.jpg", 22, 12,
+				"SOLECO", "Papier", "Science-Fiction", "Jaiden Payn", "365824598564");
 		Livre livre3 = new Livre(
 				"https://images-na.ssl-images-amazon.com/images/I/511EGQkPfjS._SX370_BO1,204,203,200_.jpg", 25, 10,
 				"STAR WARS", "Papier", "Science-Fiction", "Paul Duncan", "4520567896254");
@@ -73,6 +73,7 @@ public class Librairie7emeArcheApplication implements ApplicationRunner {
 		articleRepository.saveAll(Arrays.asList(livre1, livre2, livre3, livre4, livre5, livre6, livre7, livre8, livre9,
 				livre10, livre11, livre12, livre13, livre14, livre15, livre16));
 		User user = new User("dakkes", "abdalohabe", "rilk.dakks@yahoo.fr", "wick", "2 bis allée des chênes", 78320, "La verrière");
+		User user2 = new User("John", "wick", "rimk.dakks@yahoo.fr", "john", "2 bis allée des ibisoirs", 78290, "Trappes");
 		userRepository.save(user);
 	}
 
