@@ -1,4 +1,4 @@
-
+ 
  <%@ include file="../shared/header.jsp"%>
 <title>${article.titre}</title>
 </head>
@@ -9,7 +9,7 @@
 	
 	
 	<img src="${ article.image }" alt="${ article.id }">
-	 <form action="addArticle" method="post">
+	 <form action="${pageContext.request.contextPath}/addArticle" method="post">
 			<input type=hidden name=id value="${article.id}">
 			<button  class="btn btn-success">Ajouter</button> 
 			</form>

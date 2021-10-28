@@ -1,4 +1,4 @@
-
+ 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 	<!-- Brand -->
 
@@ -7,13 +7,15 @@
 	<ul class="navbar-nav">
 		<li class="nav-item"><a class="nav-link" style="color: orange"
 			href="/arche" style="color:orange">HOME</a></li>
+			<li class="nav-item"><a class="nav-link" style="color: orange"
+			href="${pageContext.request.contextPath}/showArticles" style="color:orange">Articles</a></li>
 
 		<!-- Dropdown -->
 		<li class="nav-item dropdown"><a class="nav-link dropdown-toggle"
-			href="#" id="navbardrop" data-toggle="dropdown"> ARTICLES </a>
+			href="#" id="navbardrop" data-toggle="dropdown"> Owner </a>
 			<div class="dropdown-menu">
-				<a class="dropdown-item" href="ListeArticles">Liste</a> <a
-					class="dropdown-item" href="showCreate">Responsable</a>
+				<a class="dropdown-item" href="${pageContext.request.contextPath}/ListeArticles">Liste</a> 
+				<a class="dropdown-item" href="${pageContext.request.contextPath}/showCreate">Responsable</a>
 			</div></li>
 	</ul>
 
@@ -38,3 +40,4 @@
 </h1>
 <h2 class="sousTitre">LIBRAIRIE EN LIGNE DE VENTE DE LIVRE DE
 	CINEMA</h2>
+ 

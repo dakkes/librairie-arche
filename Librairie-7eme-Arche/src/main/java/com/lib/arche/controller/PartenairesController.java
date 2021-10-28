@@ -1,4 +1,4 @@
- package com.lib.arche.controller;
+  package com.lib.arche.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

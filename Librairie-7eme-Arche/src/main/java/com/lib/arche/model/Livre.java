@@ -1,19 +1,25 @@
  package com.lib.arche.model;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 
 @Entity
 @Data
 /**
- * Cette classe permet d'afficher les différents livres. 
- *  @version 1.0 
- *  @author dakkes abdalohabe
+ * Cette classe permet d'afficher les différents livres.
+ * 
+ * @version 1.0
+ * @author dakkes abdalohabe
  */
 public class Livre extends Article {
 
-	private String titre;
 	private String format;
 	private String genre;
 	private String auteur;
@@ -23,24 +29,23 @@ public class Livre extends Article {
 		super();
 	}
 
-	public Livre(String image, float prixUnitaire, int stock, String titre, String format, String genre, String auteur,
+	public Livre(String titre, String image, float prixUnitaire, int stock, String format, String genre, String auteur,
 			String isbn) {
-		super(image, isbn, prixUnitaire, stock);
-		this.titre = titre;
+		super(titre, image, prixUnitaire, stock);
 		this.format = format;
 		this.genre = genre;
 		this.auteur = auteur;
 		this.isbn = isbn;
 	}
 
-	public Livre(Long id, String image, float prixUnitaire, int stock, String titre, String format, String genre,
+	public Livre(Long id, String titre, String image, float prixUnitaire, int stock, String format, String genre,
 			String auteur, String isbn) {
-		super();
-		this.titre = titre;
+		super(id, titre, image, prixUnitaire, stock);
 		this.format = format;
 		this.genre = genre;
 		this.auteur = auteur;
 		this.isbn = isbn;
+
 	}
 
 }

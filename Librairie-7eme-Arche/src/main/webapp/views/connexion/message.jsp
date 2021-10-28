@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body><h1>Veuiller vous a	Authentifier</h1>
+<body><h1>Veuiller vous 	Authentifier</h1>
 <a href="connexion.jsp">Retour</a>
 </body>
 </html>

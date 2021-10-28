@@ -1,4 +1,4 @@
- 
+  
  <!-- Footer -->
         <div class="footer">
         <h3> LIBRAIRIE- 7 - EME ARCHE<span class="orange">.</span></h3>
@@ -17,3 +17,4 @@
         
        
     	</div>
+ 

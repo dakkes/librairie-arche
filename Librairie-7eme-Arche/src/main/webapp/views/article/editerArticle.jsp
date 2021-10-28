@@ -1,4 +1,4 @@
-
+ <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@ include file="../shared/header.jsp"%>
 <title>${article.titre}</title>
 </head>
@@ -7,34 +7,57 @@
 <body>
 	<div class="container mt-5">
 		<div class="card-body">
-			<form action="updateArticle" method="post">
+			<form:form action="enregistrerArticle" modelAttribute="article"
+				method="post">
 				<div class="form-group">
-					<label class="control-label">ID :</label> <input type="text"
-						name="idArticle" value="${article.id}" readonly
-						class="form-control" />
-				</div>
-					<div class="form-group">
-					<label class="control-label">Titre</label> <input type="text"
-						name="titre" value="${article.titre}" class="form-control" />
+					<form:hidden path="id" class="form-control" />
 				</div>
 				<div class="form-group">
-					<label class="control-label">Image :</label> <input type="text"
-						name="imageArticle" value="${article.image}" class="form-control" />
+					<form:label path="titre" class="control-label">Titre</form:label>
+					<form:input path="titre" class="form-control" />
 				</div>
 				<div class="form-group">
-					<label class="control-label">Prix :</label> <input type="text"
-						name="prixUnitaire" value="${article.prixUnitaire}"
-						class="form-control" />
+					<form:label path="image" class="control-label">Image :</form:label>
+					<form:input path="image" class="form-control" />
 				</div>
 				<div class="form-group">
-					<label class="control-label"> Stock :</label> <input type="text"
-						name="stock" value="${article.stock}" class="form-control" />
+					<form:label path="prixUnitaire" class="control-label">Prix :</form:label>
+					<form:input path="prixUnitaire" class="form-control" />
+				</div>
+				<div class="form-group">
+					<form:label path="stock" class="control-label"> Stock :</form:label>
+					<form:input path="stock" class="form-control" />
+
+				</div>
+				<div class="form-group">
+					<form:label path="titre" class="control-label"> Titre :</form:label>
+					<form:input path="titre" class="form-control" />
+
+				</div>
+				<div class="form-group">
+					<form:label path="format" class="control-label"> Format :</form:label>
+					<form:input path="format" class="form-control" />
+
+				</div>
+				<div class="form-group">
+					<form:label path="genre" class="control-label"> Genre :</form:label>
+					<form:input path="genre" class="form-control" />
+
+				</div>
+				<div class="form-group">
+					<form:label path="auteur" class="control-label"> Auteur :</form:label>
+					<form:input path="auteur" class="form-control" />
+
+				</div>
+				<div class="form-group">
+					<form:label path="isbn" class="control-label"> ISBN :</form:label>
+					<form:input path="isbn" class="form-control" />
 
 				</div>
 				<div>
 					<button type="submit" class="btn btn-primary">Modifier</button>
 				</div>
-			</form>
+			</form:form>
 		</div>
 		<br /> <br />
 

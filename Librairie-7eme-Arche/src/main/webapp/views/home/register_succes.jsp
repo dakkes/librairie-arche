@@ -1,4 +1,4 @@
-  <%@ include file="../shared/header.jsp"%>
+   <%@ include file="../shared/header.jsp"%>
 
 
 <%@ include file="../shared/nav.jsp"%>

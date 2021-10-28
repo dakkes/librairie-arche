@@ -1,4 +1,4 @@
-package com.lib.arche.model;
+ package com.lib.arche.model;
 
 import java.sql.Date;
 
@@ -48,6 +48,15 @@ public class User {
 		this.CodePostale = codePostale;
 		this.Ville=Ville;
 		this.birthday = birthday;
+	}
+	
+	
+	
+	public Long getId() {
+		return Id;
+	}
+	public void setId(Long id) {
+		Id = id;
 	}
 	public String getName() {
 		return name;
